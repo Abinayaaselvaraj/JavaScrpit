@@ -1,0 +1,18 @@
+//Local scope
+for(var i=0;i<5;i++)
+{
+    console.log(i+11)
+}
+console.log(i)                                              
+
+//global
+var a=10,b=100;//a&b are declared globally
+console.log(a);
+{
+    let b=5;//
+    let a=5;
+    console.log(b)
+    console.log(a)
+}
+console.log(a)
+console.log(b)
